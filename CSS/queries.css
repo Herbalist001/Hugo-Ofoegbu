@@ -1,0 +1,73 @@
+/* ************************* */
+/* Below 550px (Smaller */
+/* ************************ */
+@media (max-width: 34em) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  body {
+    display: block;
+    margin: auto;
+  }
+
+  .Section-hero {
+    padding: 0rem 2rem;
+  }
+
+  /* .Niech {
+    padding-top: 10rem;
+  } */
+
+  .Hero-1 {
+    padding: 0px 5.5rem;
+  }
+
+  .header {
+    opacity: 0;
+  }
+
+  .Section-project {
+    padding: 0rem 2rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+
+  .Section-templates {
+    padding: 0rem 2rem;
+    padding-bottom: 20rem;
+  }
+
+  .flex-3 {
+    /* display: block; */
+    grid-column: -3/-1;
+    height: 100%;
+  }
+
+  .Section-about-me {
+    padding: 0rem 2rem;
+    padding-bottom: 20rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Footer {
+    padding: 2.4rem 2rem;
+  }
+
+  .social {
+    gap: 15px;
+  }
+}
