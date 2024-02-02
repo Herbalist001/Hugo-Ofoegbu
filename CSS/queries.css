@@ -78,7 +78,10 @@
     flex-direction: column; */
     display: grid;
     grid-template-columns: max-content;
-    align-self: center;
+/*     align-self: center; */
+    place-content: center;
+    min-height: 100vh;
+    
 
     margin: 0 auto;
   }
